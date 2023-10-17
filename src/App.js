@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 
 
 import MainComponent from './component/MainComponent';
+import { UseReducer } from './component';
 
 // class App extends Component {
 //   render(){
@@ -41,11 +41,12 @@ import MainComponent from './component/MainComponent';
 // ,,,,,,,,,,,,,,,,,,,,,,,,,START= CLASS COMPONENT OF BOOKS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 const App = () => {
-  return(
-    <MainComponent />
+  return (
+    // <MainComponent />
+    <UseReducer />
   )
 }
-  
+
 
 
 
